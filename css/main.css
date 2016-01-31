@@ -1,0 +1,67 @@
+/*Intro-Title*/
+.title h1{
+	text-align: center;
+	font-family: 'Marck Script', cursive;
+	font-size: 45px;
+}
+
+
+
+
+/*A Ham's picture*/
+
+.aham-pic {
+	text-align: center;
+	margin-top: 2em;
+
+}
+
+/*Question*/
+
+.question h2{
+	text-align: center;
+	font-family: 'Marck Script', cursive;
+
+
+}
+
+
+/*Input Box*/
+
+.input{
+	width: 12em;
+	margin-left: 44%;
+	margin-bottom: 2em;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+
+}
+
+/*Submit Button*/
+
+.submit{
+	text-align: center;
+	margin-bottom: 2em;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+
+
+/*Play Again Buttons/ Give Me Hint Button*/
+
+.buttons{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
