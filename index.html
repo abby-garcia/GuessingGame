@@ -45,17 +45,39 @@
       <!-- Input Box -->
 
       <div class ="input"> 
-        <input type="text" class="form-control" placeholder="Place Your Guess Here">
+        <input id="input-box" type="text" class="form-control" placeholder="Place Your Guess Here">
 
 
 
       </div>
 
+
+
+
+      <!-- Notification of Guesses/Trys/Duplicates -->
+
+      <div>
+        <h3 id="hint"></h3>
+
+        <h3 id="notification"></h3>
+
+        <h3 id="loser"></h3>
+
+
+     </div>   
+
+
+
+
+
+
+
+
     <!-- SubmitButton -->
 
     <div class = "submit">
 
-      <button type="button" class="btn btn-primary btn-lg">Submit Your Guess</button>
+      <button id = "submit-button" type="button" class="btn btn-primary btn-lg">Submit Your Guess</button>
 
 
     </div>  
@@ -69,28 +91,27 @@
 
       <div class = "buttons">
 
-      <button type="button" class="btn btn-warning">Play Again</button>  
+      <button id="reset" type="button" class="btn btn-warning">Play Again</button>  
 
-      <button type="button" class="btn btn-danger"> Give Me A Hint</button>
+      <button id="hint-button" type="button" class="btn btn-danger"> Give Me A Hint</button>
+
+     
+
 
       </div>  
-
-        
-
+       <h3 id="hint-answer"></h3>
 
 
 
+      <!-- Number of Guesses -->
+
+     <div class="guess-left">
 
 
+      <p>You have <span id="guesses-left">3</span> Guesses left!</p>
 
 
-
-
-
-
-
-
-
+    </div>
 
   
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -98,6 +119,6 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+        <script src="js/guessingGame.js"></script>
     </body>
 </html>
