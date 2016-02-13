@@ -37,6 +37,25 @@
 
 }
 
+
+/* Notification of Guesses/Trys/Duplicates */
+
+#hint{
+	text-align: center;
+}
+
+#notification{
+	text-align: center;
+	color: tomato;
+	size: 48px;
+}
+
+#lose{
+
+	text-align: center;
+}
+
+
 /*Submit Button*/
 
 .submit{
@@ -57,9 +76,17 @@
 	margin-bottom: 2em;
 }
 
+#hint-answer{
+
+	text-align: center;
+}
 
 
+/*Number of Guesses*/
 
+#guesses-left{
+	text-align: center;
+}
 
 
 
